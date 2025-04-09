@@ -1,0 +1,71 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# MATLAB
+*.asv
+
+# SVN
+.svn/
+
+# Mac OS
+.DS_Store
+
+# Thumbnails
+._*
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# pytest
+.cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+
+# mypy
+.mypy_cache/
+.dmypy.json
+
+# pytype
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# VS Code Python extension settings
+*.code-workspace
+
