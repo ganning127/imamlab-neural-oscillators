@@ -36,4 +36,5 @@ additional_dependencies:
   - pytorch::pytorch
   - pytorch::torchaudio
   - yaml
-  pip: []
+  pip:
+  - soundfile
