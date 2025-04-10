@@ -1,5 +1,5 @@
 project:
-  name: Computing with Oscillators: A Speech Demo
+  name: "Computing with Oscillators: A Speech Demo"
   version: 0.1.0
   description: 
   tags:
@@ -20,13 +20,20 @@ workspace:
     group: Cerebrum
     queue: shared
   model_collection:
-  data_collection:
-    - source: cybershuttle
-      identifier: 
-      mount_point: /data
-
+  data_collection: []
+  
 additional_dependencies:
   conda:
-  
-  pip:
-    - -r requirements.txt
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - tqdm
+  - scipy
+  - scikit-learn
+  - pytorch::pytorch
+  - pytorch::torchaudio
+  - yaml
+  pip: []
