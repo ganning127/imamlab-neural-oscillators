@@ -1,0 +1,19 @@
+models:
+  English_1:
+    network_type: "coRNN"
+    n_inp: 1
+    n_hid: 256
+    n_out: 10
+    dt: 0.005
+    learning_rate: 0.0042
+    random_seed: 24628
+
+  English_2:
+    network_type: "coRNN"
+    n_inp: 1
+    n_hid: 256
+    n_out: 10
+    dt: 0.005
+    learning_rate: 0.0042
+    random_seed: 24628
+
