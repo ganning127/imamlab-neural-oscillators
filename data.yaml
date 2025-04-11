@@ -1,0 +1,12 @@
+data:
+  English:
+    original_sampling_rate: 48000 #Hz
+    batch_length: 48000 #sample length
+    downsample_length: 8000
+    final_sample_length: 8000
+
+  Arabic:
+    original_sampling_rate: 44100 #Hz
+    batch_length: 70119 #sample length
+    downsample_length: 8000
+    final_sample_length: 12720
